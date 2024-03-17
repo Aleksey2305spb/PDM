@@ -97,7 +97,7 @@ public:
 		delete[] f_name;
 	}
 };
-class Shell {
+class Shell: public Project {
 public:
 	bool WORK;
 	void m()
